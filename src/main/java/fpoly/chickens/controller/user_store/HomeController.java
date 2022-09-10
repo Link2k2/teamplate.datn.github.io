@@ -4,11 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping({"/app", "/app/sales-method"})
-public class AppController {
+@RequestMapping({"/home", "/home/chickens-gangs"})
+public class HomeController {
 	@RequestMapping()
 	public String view_App() {
-		return "redirect:/assets/user_store/layout.html";
+		return "redirect:/assets/home/index_main.html";
 	}
 	
 }

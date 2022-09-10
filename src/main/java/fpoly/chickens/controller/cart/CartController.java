@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CartController {
 	@RequestMapping()
 	public String view_Cart() {
-		return "redirect:/assets/cart/layout.html";
+		return "redirect:/assets/cart/index.html";
 	}
-	
 }

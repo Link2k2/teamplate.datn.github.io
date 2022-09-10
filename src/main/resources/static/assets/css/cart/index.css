@@ -1,0 +1,7 @@
+.img__product-menu {
+	height: 200px !important;
+}
+
+.img__hover:hover {
+	border: 4px solid white;
+}
